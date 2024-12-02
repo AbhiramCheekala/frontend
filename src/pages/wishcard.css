@@ -1,0 +1,53 @@
+/* Centering the card container */
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  width: 100%;
+  max-width: 350px;
+  margin: 20px auto; /* Center horizontally and add vertical spacing */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content inside the card */
+}
+
+/* Image Styles */
+.card-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Card Content */
+.card-content {
+  margin-top: 16px;
+  text-align: center; /* Center text content */
+}
+
+/* Card Title */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* Card Description */
+.card-description {
+  margin-top: 8px;
+  color: #333;
+}
+
+/* Memories */
+.card-memories {
+  margin-top: 8px;
+  color: #666;
+}
+
+/* Timestamp */
+.card-timestamp {
+  font-size: 0.75rem;
+  color: #999;
+  margin-top: 12px;
+}

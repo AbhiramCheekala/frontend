@@ -1,0 +1,267 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+/* Styling for the birthday message */
+.birthday-message {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #ff69b4; /* Pink color */
+}
+
+/* Styling for the friend's photo */
+.friend-photo {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the message */
+.message-content {
+  font-size: 1rem;
+  color: #333; /* Dark gray */
+  margin-bottom: 20px;
+}
+
+/* Styling for the buttons */
+.wish-button,
+.event-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff69b4; /* Pink color */
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.wish-button:hover,
+.event-button:hover {
+  background-color: #ff85c1; /* Lighter pink */
+}
+
+/* Event section styles */
+.event-section {
+  margin-top: 40px;
+}
+
+/* Event photo styling */
+.event-photo {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Invitation message styling */
+.event-invitation {
+  font-size: 1rem;
+  color: #333; /* Dark gray */
+  margin: 10px 0;
+}
+
+/* Form styles */
+.wish-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-input,
+.form-textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc; /* Light gray */
+  width: 100%;
+  font-size: 1rem;
+}
+
+.form-textarea {
+  min-height: 100px;
+}
+
+.submit-button {
+  padding: 10px;
+  background-color: #ff69b4; /* Pink color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #ff85c1; /* Lighter pink */
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.success-message {
+  color: green;
+  margin-top: 10px;
+}
+
+/* Container Styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+/* Styling for the birthday message */
+.birthday-message {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #ff69b4; /* Pink color */
+}
+
+/* Styling for the friend's photo */
+.friend-photo {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the message */
+.message-content {
+  font-size: 1rem;
+  color: #333; /* Dark gray */
+  margin-bottom: 20px;
+}
+
+/* Styling for the buttons */
+.wish-button,
+.event-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff69b4; /* Pink color */
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.wish-button:hover,
+.event-button:hover {
+  background-color: #ff85c1; /* Lighter pink */
+}
+
+/* Event section styles */
+.event-section {
+  margin-top: 40px;
+}
+
+/* Event photo styling */
+.event-photo {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Invitation message styling */
+.event-invitation {
+  font-size: 1rem;
+  color: #333; /* Dark gray */
+  margin: 10px 0;
+}
+
+/* Admin link styling */
+.event-invitation span {
+  color: #ff69b4;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.event-invitation span:hover {
+  color: #ff85c1; /* Lighter pink */
+}
+
+/* Form styles */
+.wish-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-input,
+.form-textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc; /* Light gray */
+  width: 100%;
+  font-size: 1rem;
+}
+
+.form-textarea {
+  min-height: 100px;
+}
+
+.submit-button {
+  padding: 10px;
+  background-color: #ff69b4; /* Pink color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #ff85c1; /* Lighter pink */
+}
+
+/* Error and success message styles */
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.success-message {
+  color: green;
+  margin-top: 10px;
+}
+
+/* Responsive Design: Mobile */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .birthday-message {
+    font-size: 1.5rem;
+  }
+
+  .wish-button,
+  .event-button {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .event-photo {
+    max-width: 250px;
+  }
+}

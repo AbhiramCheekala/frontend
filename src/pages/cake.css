@@ -1,0 +1,24 @@
+.event-section {
+    background-color: #fff; /* White background for contrast */
+    border: 1px solid #ff69b4; /* Pink border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Spacing inside the card */
+    margin: 20px 0; /* Space above and below the card */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center the text */
+  }
+  
+  .event-invitation {
+    font-size: 1.2rem; /* Slightly larger font size */
+    color: #333; /* Dark gray text */
+    margin: 10px 0; /* Space above and below each invitation line */
+  }
+  
+  .event-photo {
+    width: 100%; /* Full width */
+    max-width: 300px; /* Limit max width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+    margin-top: 15px; /* Space above the image */
+  }
+  
